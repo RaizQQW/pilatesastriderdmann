@@ -1,0 +1,30 @@
+# robots.txt for pilates-astriderdmann.de
+User-agent: *
+Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
+Disallow: /wp-json/
+Disallow: /feed/
+Disallow: /trackback/
+Disallow: /comments/
+Disallow: /?s=
+Disallow: /search/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+
+# Allow CSS, JS, and Images
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.png$
+Allow: /*.svg$
+
+# Sitemap
+Sitemap: https://pilates-astriderdmann.de/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10 
